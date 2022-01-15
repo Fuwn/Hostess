@@ -3,7 +3,7 @@
 		v-bar
 		class="scroll-area">
 		<div class="default-body">
-			<div class="background" />
+			<div class="background" :style="{ backgroundImage: 'url(' + config.backgroundImageURL + ')' }" />
 			<Navbar :is-white="true" />
 			<nuxt-child
 				id="app"
@@ -89,7 +89,7 @@ html {
 		height: 100vh;
 		width: 100%;
 		pointer-events: none;
-		background-image: url('~assets/images/background.jpg');
+		// background-image: url('~assets/images/background.jpg');
 		// Uncomment the following to test different backgrounds
 		/*
 			top: -10%;

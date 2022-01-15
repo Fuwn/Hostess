@@ -7,7 +7,8 @@ export const state = () => ({
 	maxUploadSize: 0,
 	chunkSize: 0,
 	publicMode: false,
-	userAccounts: false
+	userAccounts: false,
+	backgroundImageURL: ''
 });
 
 export const actions = {
@@ -30,6 +31,7 @@ export const mutations = {
 		state.publicMode = config.publicMode;
 		state.userAccounts = config.userAccounts;
 		state.URL = config.domain;
+		state.backgroundImageURL = config.backgroundImageURL;
 		const lastChar = config.domain.substr(-1);
 		if (lastChar === '/') {
 			state.baseURL = `${config.domain}api`;
