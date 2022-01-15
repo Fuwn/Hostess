@@ -3,7 +3,7 @@
 		v-bar
 		class="scroll-area">
 		<div class="default-body">
-			<div class="background" :style="{ backgroundImage: 'url(' + config.backgroundImageURL + ')' }" />
+			<div class="background" :style="{ backgroundImage: 'url(' + (config.backgroundImageURL ? config.backgroundImageURL : '_nuxt/src/site/assets/images/logo.png') + ')' }" />
 			<Navbar :is-white="true" />
 			<nuxt-child
 				id="app"
