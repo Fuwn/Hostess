@@ -269,9 +269,9 @@ table.table {
 	}
 }
 
-.chibisafe-input input,
-.chibisafe-select select,
-.chibisafe-textarea textarea {
+.hostess-input input,
+.hostess-select select,
+.hostess-textarea textarea {
 	border: 2px solid #21252d;
 	border-radius: 0.3em !important;
 	background: rgba(0, 0, 0, 0.15);
@@ -287,7 +287,7 @@ table.table {
 	}
 }
 
-.chibisafe-input .icon {
+.hostess-input .icon {
 	color: #323846 !important;
 }
 
@@ -368,15 +368,15 @@ table.table {
     align-items: center;
 }
 
-.chibisafe-on-border.field.is-floating-label .label:before {
-	background-color: $chibisafe;
+.hostess-on-border.field.is-floating-label .label:before {
+	background-color: $hostess;
 }
 
-.is-chibisafe.divider::after, .is-chibisafe.divider::before {
+.is-hostess.divider::after, .is-hostess.divider::before {
 	background-color: #21252d;
 }
 
-.chibisafe.taginput {
+.hostess.taginput {
 	.taginput-container {
 		background-color: #21252d;
 		border: 2px solid #21252d;

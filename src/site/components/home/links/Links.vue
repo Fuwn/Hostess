@@ -1,12 +1,12 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://github.com/Fuwn/Hostess"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
 				<h4 class="bd-footer-title">GitHub</h4>
-				<p class="bd-footer-subtitle">Deploy your own chibisafe</p>
+				<p class="bd-footer-subtitle">Deploy your own Hostess</p>
 			</header>
 		</a>
 		<div
@@ -66,7 +66,7 @@ export default {
 				"FileFormName": "files[]",
 				"Headers": {
 					"token": "${this.apiKey}",
-					"accept": "application/vnd.chibisafe.json"
+					"accept": "application/vnd.hostess.json"
 				},
 				"ResponseType": "Text",
 				"URL": "$json:url$",

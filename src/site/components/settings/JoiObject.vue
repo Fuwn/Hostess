@@ -10,13 +10,13 @@
 				<b-input
 					v-if="getDisplayType(field) === 'string'"
 					v-model="values[key]"
-					class="chibisafe-input"
+					class="hostess-input"
 					expanded />
 				<b-input
 					v-else-if="getDisplayType(field) === 'number'"
 					v-model="values[key]"
 					type="number"
-					class="chibisafe-input"
+					class="hostess-input"
 					:min="getMin(field)"
 					:max="getMax(field)"
 					expanded />

@@ -3,14 +3,14 @@
 @import "../../../../node_modules/bulma/sass/utilities/functions";
 
 // Setup our custom colors
-$chibisafe: #323846;
-$chibisafe-invert: findColorInvert($chibisafe);
+$hostess: #323846;
+$hostess-invert: findColorInvert($hostess);
 
 // XXX: EXPERIMENTAL, CHECK IF WE NEED ORIGINAL PRIMARY ANYWHERE
-// $primary: $chibisafe;
-// $primary-invert: $chibisafe-invert;
+// $primary: $hostess;
+// $primary-invert: $hostess-invert;
 
 // declare custom colors
 $custom-colors: (
-  "chibisafe":($chibisafe, $chibisafe-invert)
+  "hostess":($hostess, $hostess-invert)
 );

@@ -1,15 +1,15 @@
 version: "3.7"
 
 services:
-    chibisafe:
+    hostess:
         volumes:
-            - chibisafe-data:/usr/chibisafe/uploads
-            - chibisafe-database:/usr/chibisafe/database
+            - hostess-data:/usr/hostess/uploads
+            - hostess-database:/usr/hostess/database
 
 volumes:
     nginx-data:
         name: "nginx-data"
-    chibisafe-data:
-        name: "chibisafe-data"
-    chibisafe-database:
-        name: "chibisafe-database"
+    hostess-data:
+        name: "hostess-data"
+    hostess-database:
+        name: "hostess-database"

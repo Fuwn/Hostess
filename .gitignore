@@ -13,7 +13,7 @@ uploads/
 !src/api/routes/uploads
 db
 database.sqlite-journal
-docker/nginx/chibisafe.moe.conf
+docker/nginx/host.fuwn.me.conf
 docker-compose.config.yml
 /coverage
 local/

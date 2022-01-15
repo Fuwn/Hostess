@@ -12,14 +12,14 @@
 					<b-field>
 						<b-input
 							v-model="username"
-							class="chibisafe-input"
+							class="hostess-input"
 							type="text"
 							placeholder="Username" />
 					</b-field>
 					<b-field>
 						<b-input
 							v-model="password"
-							class="chibisafe-input"
+							class="hostess-input"
 							type="password"
 							placeholder="Password"
 							password-reveal />
@@ -27,7 +27,7 @@
 					<b-field>
 						<b-input
 							v-model="rePassword"
-							class="chibisafe-input"
+							class="hostess-input"
 							type="password"
 							placeholder="Re-type Password"
 							password-reveal
@@ -50,7 +50,7 @@
 							<p class="level-item">
 								<b-button
 									size="is-medium"
-									type="is-chibisafe"
+									type="is-hostess"
 									:disabled="isLoading"
 									@click="register">
 									Register

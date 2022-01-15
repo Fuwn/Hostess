@@ -2,7 +2,7 @@ FROM jrottenberg/ffmpeg:4.3-alpine312 as ffmpeg
 
 FROM node:14-alpine
 
-WORKDIR /usr/chibisafe
+WORKDIR /usr/hostess
 COPY package.json package-lock.json ./
 
 RUN apk add --update \

@@ -15,12 +15,12 @@ async function start() {
 	const wizard = [
 		{
 			type: 'input',
-			query: 'Full domain this instance is gonna be running on (Ex: https://my-super-chibisafe.xyz):',
+			query: 'Full domain this instance is gonna be running on (Ex: https://my-super-hostess.xyz):',
 			handle: 'DOMAIN'
 		},
 		{
 			type: 'input',
-			query: 'Port to run chibisafe in? (default: 5000)',
+			query: 'Port to run Hostess in? (default: 5000)',
 			handle: 'SERVER_PORT'
 		},
 		{

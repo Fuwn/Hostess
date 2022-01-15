@@ -51,7 +51,7 @@ export default {
 	mounted() {
 		// eslint-disable-next-line no-console
 		console.log(
-			`%c chibisafe %c v${this.config.version} %c`,
+			`%c Hostess %c ${this.config.version} %c`,
 			'background:#35495e; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
 			'background:#ff015b; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
 			'background:transparent'

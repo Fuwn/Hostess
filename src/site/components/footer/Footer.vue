@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-narrow">
-					<h4>chibisafe</h4>
+					<h4>Hostess</h4>
 					<span>© 2017-{{ getYear }}
 						<a
 							href="https://github.com/pitu"
@@ -17,9 +17,9 @@
 					</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/weebdev/chibisafe">GitHub</a>
+					<a href="https://github.com/Fuwn/hostess">GitHub</a>
 					<a href="https://patreon.com/pitu">Patreon</a>
-					<a href="https://discord.gg/5g6vgwn">Discord</a>
+					<!-- <a href="https://discord.gg/5g6vgwn">Discord</a> -->
 				</div>
 				<div class="column is-narrow bottom-up">
 					<a
@@ -61,7 +61,7 @@ export default {
 				"FileFormName": "files[]",
 				"Headers": {
 					"token": "${this.apiKey}",
-					"accept": "application/vnd.chibisafe.json"
+					"accept": "application/vnd.hostess.json"
 				},
 				"ResponseType": "Text",
 				"URL": "$json:url$",

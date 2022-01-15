@@ -16,10 +16,10 @@ describe('Footer.vue', () => {
 		}
 	});
 
-	it('Should render chibisafe as the instance title', () => {
+	it('Should render Hostess as the instance title', () => {
 		const wrapper = shallowMount(Component, { store, localVue });
 
 		const title = wrapper.find('h4');
-		expect(title.text()).toBe('chibisafe');
+		expect(title.text()).toBe('hostess');
 	});
 });

@@ -75,7 +75,7 @@ export default {
 	methods: {
 		promptRestartService() {
 			this.$buefy.dialog.confirm({
-				message: 'Certain changes need for you to manually restart your chibisafe instance, please do so from the terminal. Continue?',
+				message: 'Certain changes need for you to manually restart your Hostess instance, please do so from the terminal. Continue?',
 				onConfirm: () => this.saveSettings()
 			});
 		},

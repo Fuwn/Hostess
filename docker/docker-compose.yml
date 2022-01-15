@@ -17,10 +17,10 @@ services:
             interval: 60s
             timeout: 5s
 
-    chibisafe:
+    hostess:
         build:
             context: ../
-            dockerfile: ./docker/chibisafe/Dockerfile
+            dockerfile: ./docker/hostess/Dockerfile
         expose:
             - "5000"
             - "5001"
@@ -40,7 +40,7 @@ services:
             META_TWITTER_HANDLE: ""
             SERVER_PORT: 5000
             DOMAIN: "http://localhost:5000"
-            SERVICE_NAME: chibisafe
+            SERVICE_NAME: Hostess
             MAX_SIZE: 5000
             GENERATE_THUMBNAILS: "true"
             GENERATE_ZIPS: "true"

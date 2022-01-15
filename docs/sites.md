@@ -1,6 +1,6 @@
-### Sites using chibisafe
+### Sites using Hostess (chibisafe)
 
-As you are aware by now chibisafe is a project meant to be self-hosted and so we've compiled the list below of sites using it. Some of them are open for registration and some might even offer anonymous uploads.
+As you are aware by now Hostess (chibisafe) is a project meant to be self-hosted and so we've compiled the list below of sites using it. Some of them are open for registration and some might even offer anonymous uploads.
 
 - [chibisafe.moe](https://chibisafe.moe): A small safe worth protecting.
 - [dmca.gripe](https://dmca.gripe): a dmca-resistant, permanent file hosting service. *(v3)*

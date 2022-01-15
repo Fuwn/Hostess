@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-    chibisafe:
+    hostess:
         environment:
             CHUNK_SIZE: 90
             SECRET: "wowfcgMHqZHwOIMLadWrKu3liyqPOOILpDLSDvuxq3YGhJmiZXJCVpnF96l11WfR"

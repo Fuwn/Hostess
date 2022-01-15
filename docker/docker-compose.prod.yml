@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-    chibisafe:
+    hostess:
         volumes:
-            - ./chibisafe-data:/usr/chibisafe/uploads
-            - ./chibisafe-database:/usr/chibisafe/database
+            - ./hostess-data:/usr/hostess/uploads
+            - ./hostess-database:/usr/hostess/database
