@@ -32,6 +32,7 @@ export const mutations = {
 		state.userAccounts = config.userAccounts;
 		state.URL = config.domain;
 		state.backgroundImageURL = config.backgroundImageURL;
+		state.logoURL = config.logoURL;
 		const lastChar = config.domain.substr(-1);
 		if (lastChar === '/') {
 			state.baseURL = `${config.domain}api`;

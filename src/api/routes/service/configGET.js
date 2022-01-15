@@ -23,7 +23,8 @@ class configGET extends Route {
 				metaKeywords: Util.config.metaKeywords,
 				metaTwitterHandle: Util.metaTwitterHandle,
 				domain: process.env.DOMAIN,
-				backgroundImageURL: Util.config.backgroundImageURL
+				backgroundImageURL: Util.config.backgroundImageURL,
+				logoURL: Util.config.logoURL
 			}
 		});
 	}
