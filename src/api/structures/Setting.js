@@ -111,14 +111,14 @@ const schema = Joi.object({
 		.label('Meta theme color')
 		.description('Color that user agents should use to customize the display of the page/embeds'),
 
-	metaDescription: Joi.string().default('Blazing fast file uploader and bunker written in node! 🚀')
+	metaDescription: Joi.string().default('Blazing fast file uploader and bunker written in node! 🚀 Extended!')
 		.meta({
 			section: Sections.SOCIAL_AND_SHARING
 		})
 		.label('Meta description')
 		.description('Short and accurate summary of the content of the page'),
 
-	metaKeywords: Joi.string().default('chibisafe,lolisafe,upload,uploader,file,vue,images,ssr,file uploader,free')
+	metaKeywords: Joi.string().default('chibisafe,lolisafe,hostess,upload,uploader,file,vue,images,ssr,file uploader,free')
 		.meta({
 			section: Sections.SOCIAL_AND_SHARING
 		})

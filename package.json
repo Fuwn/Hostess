@@ -1,20 +1,27 @@
 {
-	"name": "chibisafe",
+	"name": "Hostess",
 	"version": "4.0.2",
-	"description": "Blazing fast file uploader and bunker written in node! 🚀",
+	"description": "Blazing fast file uploader and bunker written in node! 🚀 Extended!",
 	"license": "MIT",
 	"author": {
 		"name": "Pitu",
 		"email": "heyitspitu@gmail.com",
 		"url": "https://github.com/Pitu"
 	},
+	"contributors": [
+		{
+			"name": "Fuwn",
+			"email": "contact@fuwn.me",
+			"url": "https://github.com/Fuwn"
+		}
+	],
 	"scripts": {
 		"setup": "node src/setup.js && npm run migrate && npm run seed",
 		"start": "npm run migrate && nuxt build && cross-env NODE_ENV=production node src/api/structures/Server",
 		"dev": "nodemon src/api/structures/Server",
 		"migrate": "knex migrate:latest",
 		"seed": "knex seed:run",
-		"restart": "pm2 restart chibisafe",
+		"restart": "pm2 restart Hostess",
 		"overwrite-config": "cross-env OVERWRITE_SETTINGS=true",
 		"test:vue": "jest --testPathPattern=src/site",
 		"test:api": "jest --testPathPattern=src/tests/api",
@@ -24,10 +31,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WeebDev/chibisafe"
+		"url": "https://github.com/Fuwn/Hostess"
 	},
 	"bugs": {
-		"url": "https://github.com/WeebDev/chibisafe/issues"
+		"url": "https://github.com/Fuwn/Hostess/issues"
 	},
 	"engines": {
 		"node": ">=12.0.0"
@@ -140,6 +147,7 @@
 	"keywords": [
 		"chibisafe",
 		"lolisafe",
+		"hostess",
 		"upload",
 		"uploader",
 		"file",

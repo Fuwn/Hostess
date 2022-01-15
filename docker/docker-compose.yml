@@ -35,8 +35,8 @@ services:
             SECRET: ""
             MAX_LINKS_PER_ALBUM: 5
             META_THEME_COLOR: "#20222b"
-            META_DESCRIPTION: "Blazing fast file uploader and bunker written in node! 🚀"
-            META_KEYWORDS: "chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free"
+            META_DESCRIPTION: "Blazing fast file uploader and bunker written in node! 🚀 Extended!"
+            META_KEYWORDS: "chibisafe,hostess,upload,uploader,file,vue,images,ssr,file uploader,free"
             META_TWITTER_HANDLE: ""
             SERVER_PORT: 5000
             DOMAIN: "http://localhost:5000"

@@ -13,12 +13,12 @@ services:
             # RATE_LIMIT_MAX: 5
             # BLOCKED_EXTENSIONS: '.jar,.exe,.msi,.com,.bat,.cmd,.scr,.ps1,.sh'
             # META_THEME_COLOR: '#20222b'
-            # META_DESCRIPTION: 'Blazing fast file uploader and bunker written in node! 🚀'
-            # META_KEYWORDS: 'chibisafe,upload,uploader,file,vue,images,ssr,file uploader,free'
+            # META_DESCRIPTION: 'Blazing fast file uploader and bunker written in node! 🚀 Extended!'
+            # META_KEYWORDS: 'chibisafe,hostess,upload,uploader,file,vue,images,ssr,file uploader,free'
             # META_TWITTER_HANDLE: ''
             # SERVER_PORT: 5000
-            # DOMAIN: 'http://chibisafe.moe'
-            # SERVICE_NAME: chibisafe
+            # DOMAIN: 'https://host.fuwn.me'
+            # SERVICE_NAME: Hostess
             # MAX_SIZE: 5000
             # GENERATE_THUMBNAILS: 'true'
             # GENERATE_ZIPS: 'true'
