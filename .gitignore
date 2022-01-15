@@ -1,9 +1,12 @@
-# Packages
-node_modules/
+# NPM
+/node_modules/
+
+# Packges
 dist/
 .nuxt/
 logs/
-# Chibisafe specifics
+
+# Hostess
 database.sqlite
 uploads/
 .env
@@ -14,3 +17,9 @@ docker/nginx/chibisafe.moe.conf
 docker-compose.config.yml
 /coverage
 local/
+
+# IDE
+/.idea/
+
+# Yarn
+yarn.lock
