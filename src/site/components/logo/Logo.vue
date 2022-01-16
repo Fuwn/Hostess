@@ -1,5 +1,5 @@
 <template>
-	<img :src="config.logoURL ? config.logoURL : '_nuxt/src/site/assets/images/logo.png'">
+	<img :src="config.logoURL !== '' ? config.logoURL : '_nuxt/src/site/assets/images/logo.png'">
 </template>
 <style lang="scss" scoped>
 	img {
