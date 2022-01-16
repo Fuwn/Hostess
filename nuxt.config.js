@@ -3,6 +3,9 @@ import autoprefixer from 'autoprefixer';
 
 const Util = require('./src/api/utils/Util');
 
+// eslint-disable-next-line no-negated-condition
+const logoURL = Util.config.logoURL !== '' ? Util.config.logoURL : '/logo.png';
+
 export default async () => {
 	/*
 		FIXME:
@@ -36,13 +39,13 @@ export default async () => {
 				{ hid: 'twitter:creator', name: 'twitter:creator', content: `${Util.config.metaTwitterHandle}` },
 				{ hid: 'twitter:title', name: 'twitter:title', content: `${Util.config.serviceName}` },
 				{ hid: 'twitter:description', name: 'twitter:description', content: `${Util.config.metaDescription}` },
-				{ hid: 'twitter:image', name: 'twitter:image', content: `/logo.png` },
+				{ hid: 'twitter:image', name: 'twitter:image', content: `${logoURL}` },
 				{ hid: 'og:url', property: 'og:url', content: `/` },
 				{ hid: 'og:type', property: 'og:type', content: 'website' },
 				{ hid: 'og:title', property: 'og:title', content: `${Util.config.serviceName}` },
 				{ hid: 'og:description', property: 'og:description', content: `${Util.config.metaDescription}` },
-				{ hid: 'og:image', property: 'og:image', content: `/logo.png` },
-				{ hid: 'og:image:secure_url', property: 'og:image:secure_url', content: `/logo.png` },
+				{ hid: 'og:image', property: 'og:image', content: `${logoURL}` },
+				{ hid: 'og:image:secure_url', property: 'og:image:secure_url', content: `${logoURL}` },
 				{ hid: 'og:site_name', property: 'og:site_name', content: `${Util.config.serviceName}` }
 			],
 			link: [
